@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="880" height="220" role="img" aria-label="Shoptify Winter Reverser Engine architectural banner">
+  <defs>
+    <linearGradient id="bgShop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="55%" stop-color="#0e1320"/>
+      <stop offset="100%" stop-color="#111622"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="76%" cy="50%" r="44%">
+      <stop offset="0%" stop-color="#1793d1" stop-opacity="0.16"/>
+      <stop offset="65%" stop-color="#39d353" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridShop" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+    <clipPath id="clipShop">
+      <rect width="880" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipShop)">
+    <rect width="880" height="220" fill="url(#bgShop)"/>
+    <rect width="880" height="220" fill="url(#gridShop)"/>
+    <rect width="880" height="220" fill="url(#glowCyan)"/>
+
+    <!-- Left emblem: perspective viewport lens + token layers -->
+    <g transform="translate(46, 46)">
+      <rect width="54" height="54" rx="10" fill="#111622" stroke="#1e293b" stroke-width="1.5"/>
+      <rect x="11" y="12" width="32" height="22" rx="3" fill="none" stroke="#1793d1" stroke-width="1.7"/>
+      <line x1="11" y1="18" x2="43" y2="18" stroke="#1e293b" stroke-width="1.2"/>
+      <path d="M 18 42 L 36 42" stroke="#e3b341" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="27" cy="26" r="3.5" fill="#39d353">
+        <animate attributeName="r" values="3;4.5;3" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Title -->
+    <g transform="translate(116, 54)">
+      <text x="0" y="16" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#f8fafc">shoptify-winter-reverser-engine</text>
+      <text x="0" y="40" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#94a3b8">Editorial Capture, Local Mirror &amp; Design System Vault</text>
+    </g>
+
+    <!-- Metric pills (real counts from repo) -->
+    <g transform="translate(46, 126)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
+      <rect x="0" y="0" width="112" height="24" rx="5" fill="#111622" stroke="#1e293b"/>
+      <circle cx="12" cy="12" r="3" fill="#1793d1"/>
+      <text x="22" y="15.5" fill="#cbd5e1">12 CHAPTERS</text>
+
+      <rect x="122" y="0" width="112" height="24" rx="5" fill="#111622" stroke="#1e293b"/>
+      <circle cx="134" cy="12" r="3" fill="#39d353"/>
+      <text x="144" y="15.5" fill="#cbd5e1">55 3D ASSETS</text>
+
+      <rect x="244" y="0" width="132" height="24" rx="5" fill="#111622" stroke="#1e293b"/>
+      <circle cx="256" cy="12" r="3" fill="#e3b341"/>
+      <text x="266" y="15.5" fill="#cbd5e1">15 PIPELINE PY</text>
+    </g>
+
+    <text x="46" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#64748b">MIRROR :4174/editions/winter2026  |  VAULT :4173/site/</text>
+
+    <!-- Right Architectural Artwork: 12-Chapter Scroll Rail + Golden Ratio Grid -->
+    <g transform="translate(504, 24)">
+      <rect x="0" y="0" width="340" height="172" rx="10" fill="#0b101b" fill-opacity="0.94" stroke="#1e293b" stroke-width="1.2"/>
+
+      <!-- Left Chapter Rail inside Preview -->
+      <rect x="12" y="14" width="66" height="144" rx="6" fill="#111622" stroke="#1e293b"/>
+      <text x="20" y="29" font-family="ui-monospace, monospace" font-size="8.5" fill="#94a3b8">RAIL I-XII</text>
+      <line x1="20" y1="36" x2="70" y2="36" stroke="#1e293b"/>
+
+      <!-- 12 chapter tick marks -->
+      <g stroke="#334155" stroke-width="2" stroke-linecap="round">
+        <line x1="22" y1="46" x2="54" y2="46"/>
+        <line x1="22" y1="55" x2="46" y2="55"/>
+        <line x1="22" y1="64" x2="58" y2="64"/>
+        <line x1="22" y1="73" x2="50" y2="73"/>
+        <line x1="22" y1="82" x2="60" y2="82"/>
+        <line x1="22" y1="91" x2="44" y2="91"/>
+        <line x1="22" y1="100" x2="56" y2="100"/>
+        <line x1="22" y1="109" x2="48" y2="109"/>
+        <line x1="22" y1="118" x2="52" y2="118"/>
+        <line x1="22" y1="127" x2="42" y2="127"/>
+        <line x1="22" y1="136" x2="55" y2="136"/>
+        <line x1="22" y1="145" x2="50" y2="145"/>
+      </g>
+
+      <!-- Animated active rail indicator -->
+      <rect x="18" y="42" width="48" height="8" rx="2" fill="#39d353" fill-opacity="0.28" stroke="#39d353" stroke-width="0.8">
+        <animate attributeName="y" values="42;141;42" dur="7s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Center Stage: Renaissance Geometry & Bundle Map -->
+      <g transform="translate(92, 14)">
+        <rect width="244" height="144" rx="6" fill="#111622" stroke="#1e293b"/>
+        <!-- Subtle golden-ratio circles -->
+        <circle cx="122" cy="64" r="46" fill="none" stroke="#1793d1" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="3 3"/>
+        <circle cx="122" cy="64" r="28" fill="none" stroke="#e3b341" stroke-width="1" stroke-opacity="0.45"/>
+        <line x1="76" y1="64" x2="168" y2="64" stroke="#1e293b" stroke-width="1"/>
+        <line x1="122" y1="18" x2="122" y2="110" stroke="#1e293b" stroke-width="1"/>
+
+        <!-- Orbital node -->
+        <circle cx="122" cy="18" r="3.5" fill="#1793d1">
+          <animateTransform attributeName="transform" type="rotate" from="0 122 64" to="360 122 64" dur="10s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="122" cy="64" r="5" fill="#39d353"/>
+
+        <!-- Labels -->
+        <text x="12" y="22" font-family="ui-monospace, monospace" font-size="8.5" fill="#1793d1">RIVE + THREE.JS</text>
+        <text x="12" y="132" font-family="ui-monospace, monospace" font-size="8.5" fill="#94a3b8">TAILWIND 4.2.2 · LENIS · VIEW TRANSITIONS</text>
+      </g>
+    </g>
+
+    <rect x="0.75" y="0.75" width="878.5" height="218.5" rx="14" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  </g>
+</svg>
